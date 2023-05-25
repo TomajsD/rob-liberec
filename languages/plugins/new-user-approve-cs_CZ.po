@@ -1,0 +1,253 @@
+# Translation of Plugins - New User Approve - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - New User Approve - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-29 18:46:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - New User Approve - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+msgid "New User Approve"
+msgstr "New User Approve"
+
+#: includes/user-list.php:354
+msgid "User denied."
+msgid_plural "%s users denied."
+msgstr[0] "Uživatel byl zamítnut."
+msgstr[1] "%s uživatelé byli zamítnuti."
+msgstr[2] "%s uživatelů bylo zamítnuto."
+
+#: includes/user-list.php:359
+msgid "User approved."
+msgid_plural "%s users approved."
+msgstr[0] "Uživatel byl schválen."
+msgstr[1] "%s uživatelé byli schváleni."
+msgstr[2] "%s uživatelů bylo schváleno."
+
+#: includes/messages.php:9
+msgid "You have been approved to access {sitename}"
+msgstr "Byl schválen přístup na web {sitename}"
+
+#: includes/messages.php:28
+msgid "You have been denied access to {sitename}."
+msgstr "Byl zamítnut přístup na web {sitename}"
+
+#: new-user-approve.php:624
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>CHYBA</strong>: Nelze Vás registrovat..., kontaktuje <a href=\"mailto:%s\">správce webu</a> !"
+
+#: admin/templates/approve.php:6
+msgid "User successfully updated."
+msgstr "Uživatel úspěšně aktualizován."
+
+#: admin/templates/approve.php:11
+msgid "User Registration Approval"
+msgstr "Schvalování uživatelů"
+
+#: includes/admin-approve.php:66
+msgid "Approve New Users"
+msgstr "Schvalování uživatelů"
+
+#: includes/admin-approve.php:132
+msgid "Username"
+msgstr "Uživ. jméno"
+
+#: includes/admin-approve.php:133
+msgid "Name"
+msgstr "Jméno"
+
+#: includes/invitation-code.php:693
+msgid "Actions"
+msgstr "Akce"
+
+#: includes/admin-approve.php:193 includes/user-list.php:104
+#: includes/user-list.php:257 includes/user-list.php:258
+msgid "Approve"
+msgstr "Schválit"
+
+#: includes/admin-approve.php:197 includes/user-list.php:105
+#: includes/user-list.php:260 includes/user-list.php:261
+msgid "Deny"
+msgstr "Zamítnout"
+
+#: includes/admin-approve.php:215 includes/user-list.php:150
+msgid "approved"
+msgstr "schválený"
+
+#: includes/admin-approve.php:217 includes/user-list.php:152
+msgid "denied"
+msgstr "zamítnutý"
+
+#: includes/admin-approve.php:219 includes/user-list.php:154
+msgid "pending"
+msgstr "nerozhodnutý"
+
+#: includes/admin-approve.php:224
+msgid "There are no users with a status of %s"
+msgstr "Žádní uživatelé se stavem %s"
+
+#: includes/admin-approve.php:264
+msgid "You can now update user status on the <a href=\"%1$s\">users admin page</a>. | <a href=\"%2$s\">Hide Notice</a>"
+msgstr "Nyní můžete aktualizovat stav uživatele na stránce <a href=\"%1$s\">uživatelé</a>. | <a href=\"%2$s\">Skrýt oznámení</a>"
+
+#: includes/admin-approve.php:291
+msgid "Approve Users"
+msgstr "Odsouhlasení nových uživatelů"
+
+#: includes/admin-approve.php:292
+msgid "Support"
+msgstr "Podpora"
+
+#: includes/admin-approve.php:293
+msgid "Feedback"
+msgstr "Podpora"
+
+#: includes/admin-approve.php:121 includes/admin-approve.php:312
+msgid "Approved Users"
+msgstr "Odsouhlasení uživatelé"
+
+#: includes/admin-approve.php:117 includes/admin-approve.php:314
+msgid "Denied Users"
+msgstr "Zakázaní uživatelé"
+
+#: includes/email-tags.php:247
+msgid "Your site name"
+msgstr "Název webu"
+
+#: includes/email-tags.php:253
+msgid "Your site URL"
+msgstr "Vaše stránky URL"
+
+#: includes/email-tags.php:259
+msgid "The URL to approve/deny users"
+msgstr "Adresa pro schválení/zamítnutí uživatele"
+
+#: includes/email-tags.php:265
+msgid "The URL to login to the site"
+msgstr "Adresa URL pro přihlášení se na stránky"
+
+#: includes/email-tags.php:271
+msgid "The URL for a user to set/reset their password"
+msgstr "Odkaz pro nastavení nebo obnovu hesla"
+
+#: includes/email-tags.php:277
+msgid "Generates the password for the user to add to the email"
+msgstr "Generuje heslo uživatele, které má přidat do e-mailu"
+
+#: includes/email-tags.php:305
+msgid "Username: %s"
+msgstr "Uživ. jméno : %s"
+
+#: includes/email-tags.php:396
+msgid "Password: %s"
+msgstr "Heslo: %s"
+
+#: includes/messages.php:12
+msgid "To set or reset your password, visit the following address:"
+msgstr "Chcete-li nastavit nebo obnovit heslo, navštivte následující adresu:"
+
+#: includes/messages.php:85
+msgid "{username} ({user_email}) has requested a username at {sitename}"
+msgstr "{username} ({user_email}) požádal o uživatelské jméno na {sitename}"
+
+#: includes/messages.php:87
+msgid "To approve or deny this user access to {sitename} go to"
+msgstr "Chcete-li schválit nebo zamítnout tohoto uživatele {sitename} klikněte"
+
+#: includes/invitation-code.php:429 includes/invitation-code.php:692
+#: includes/user-list.php:127
+msgid "Status"
+msgstr "Stav"
+
+#: includes/user-list.php:173
+msgid "Filter"
+msgstr "Filtr"
+
+#: includes/user-list.php:177 includes/user-list.php:179
+msgid "View all users"
+msgstr "Zobrazit všechny uživatele"
+
+#: includes/user-list.php:383
+msgid "Access Status"
+msgstr "Stav přístupu"
+
+#: includes/user-list.php:388
+msgid "-- Status --"
+msgstr "-- Stav --"
+
+#: includes/user-list.php:396
+msgid "If user has access to sign in or not."
+msgstr "Pokud se uživatel může přihlásit nebo nikoliv."
+
+#: includes/user-list.php:399
+msgid "Current user status is <strong>pending</strong>."
+msgstr "Současný stav uživatele je <strong>čekající</strong>."
+
+#: new-user-approve.php:169
+msgid "New User Approve requires WordPress %s or newer."
+msgstr "New User Approve vyžaduje WordPress %s nebo novější."
+
+#: new-user-approve.php:342
+msgid "<strong>ERROR</strong>: Your account is still pending approval."
+msgstr "<strong>CHYBA</strong>: Váš účet stále čeká na schválení."
+
+#: new-user-approve.php:347
+msgid "<strong>ERROR</strong>: Your account has been denied access to this site."
+msgstr "<strong>CHYBA</strong>: Byl Vám odepřen přístup k tomuto webu."
+
+#: new-user-approve.php:522
+msgid "Users"
+msgstr "Uživatelé"
+
+#: new-user-approve.php:559
+msgid "[%s] User Approval"
+msgstr "[%s] Uživatel schválen"
+
+#: new-user-approve.php:698
+msgid "[%s] Registration Approved"
+msgstr "[%s] Registrace schválena"
+
+#: new-user-approve.php:728
+msgid "[%s] Registration Denied"
+msgstr "[%s] Registrace zamítnuta"
+
+#: new-user-approve.php:790
+msgid "Registration successful."
+msgstr "Registrace proběhla úspěšně."
+
+#: new-user-approve.php:794
+msgid "Pending Approval"
+msgstr "Čeká na schválení"
+
+#: includes/messages.php:72
+msgid "Welcome to {sitename}. This site is accessible to approved users only. To be approved, you must first register."
+msgstr "Vítejte v {sitename}. Tato stránka je přístupná pouze schváleným uživatelům. Abyste byl schválen, musíte se nejprve zaregistrovat."
+
+#: includes/messages.php:102
+msgid "After you register, your request will be sent to the site administrator for approval. You will then receive an email with further instructions."
+msgstr "Po registraci, bude žádost odeslána správci webu ke schválení. Poté obdržíte e-mail s dalšími instrukcemi."
+
+#: includes/messages.php:43
+msgid "You will receive an email with instructions on what you will need to do next. Thanks for your patience."
+msgstr "Obdržíte e-mail s pokyny o tom, co budete muset udělat. Děkujeme za vaši trpělivost."
+
+#: includes/messages.php:41
+msgid "An email has been sent to the site administrator. The administrator will review the information that has been submitted and either approve or deny your request."
+msgstr "E-mail byl odeslán správci webu. Administrátor zkontroluje údaje, které byly předloženy, a buď schválí, nebo zamítne vaši žádost."
+
+#: includes/admin-approve.php:134
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/admin-approve.php:188
+msgid "email:"
+msgstr "e-mail:"
+
+#: includes/email-tags.php:241
+msgid "The user's email address"
+msgstr "E-mailová adresa uživatele"
